@@ -49,17 +49,17 @@ To set up and run KnowledgeTrack locally:
 
 ## 👩‍💻 Contributors
 
-- **Sean Reece Calantoc**:
-   - Designed the **Profile Page UI**, including navigation buttons and validation controls, ensuring users could intuitively interact with the application.
-   - Implemented the **comment system**, including previews and full comment views for organized recording of feedback.
-   - Enhanced the **Edit Profile functionality** to save changes persistently and debugged key features like the "Save" button.
-   - Added support for **achievements and skills**, while improving search filters for a smoother user experience.
-
 - **Kanishka Yadav**:
    - Built the **structured comment system**, enabling faculty to log and review feedback alongside updates to `StudentProfile` and `DataStore`.
    - Developed the **StudentReportController** and improved the handling of profile data to streamline reporting.
    - Enhanced the **Edit Profile functionality**, allowing updates to academic status, work details, and roles for tailored student management.
    - Contributed core features for the **Search Profiles Page**, including `SearchProfileController` and `TableView` integration for efficient profile searches.
+
+- **Sean Reece Calantoc**:
+   - Designed the **Profile Page UI**, including navigation buttons and validation controls, ensuring users could intuitively interact with the application.
+   - Implemented the **comment system**, including previews and full comment views for organized recording of feedback.
+   - Enhanced the **Edit Profile functionality** to save changes persistently and debugged key features like the "Save" button.
+   - Added support for **achievements and skills**, while improving search filters for a smoother user experience.
 
 - **Hoang Khang Pham**:
    - Implemented **student profile management**, including double-click functionality, data population, and profile linking.
