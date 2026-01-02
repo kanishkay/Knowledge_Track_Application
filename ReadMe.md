@@ -30,28 +30,6 @@
 
 ---
 
-## 🗂 Version History
-
-### **Version 0.9**
-- **Sean Reece Calantoc**: Added the student detail page with comment previews and full comment view.
-- **Kanishka Yadav**: Implemented the comment functionality for student profiles and created the `StudentReportController`.
-- **Hoang Khang Pham**: Enabled double-click functionality for student rows, wired data to the student info page, and implemented blacklist/whitelist functionality with demo data.
-- **Cheyenne Khouri**: Built the reports page, created `ReportController`, and implemented logic to load profiles by blacklist/whitelist status.
-
-### **Version 0.8**
-- **Sean Reece Calantoc**: Added achievements/skills support, updated the edit page, and improved search filtering.
-- **Kanishka Yadav**: Introduced structured comments and updates to `StudentProfile` and `DataStore`.
-- **Hoang Khang Pham**: Debugged "Add Comment" features, fixed 5 student profiles, and updated language settings.
-- **Cheyenne Khouri**: Created the comments page and `CommentController`, developed logic to load previous and save new comments.
-
-### **Version 0.7**
-- **Sean Reece Calantoc**: Ensured the edit page was fully functional with persistence.
-- **Kanishka Yadav**: Enhanced the edit profile functionality to allow updates to academic status, job details, and preferred roles.
-- **Hoang Khang Pham**: Fixed 5 profiles and ensured the display matched the edit page updates.
-- **Cheyenne Khouri**: Adjusted the search page and introduced `EditController`.
-
----
-
 ## 🛠 Installation & Running Instructions
 
 To set up and run KnowledgeTrack locally:
@@ -72,13 +50,28 @@ To set up and run KnowledgeTrack locally:
 ## 👩‍💻 Contributors
 
 - **Sean Reece Calantoc**:
-   - Focused on UI logic, comment systems, and debugging features.
+   - Designed the **Profile Page UI**, including navigation buttons and validation controls, ensuring users could intuitively interact with the application.
+   - Implemented the **comment system**, including previews and full comment views for organized recording of feedback.
+   - Enhanced the **Edit Profile functionality** to save changes persistently and debugged key features like the "Save" button.
+   - Added support for **achievements and skills**, while improving search filters for a smoother user experience.
+
 - **Kanishka Yadav**:
-   - Specialized in implementing comments, controllers, and structured data handling.
+   - Built the **structured comment system**, enabling faculty to log and review feedback alongside updates to `StudentProfile` and `DataStore`.
+   - Developed the **StudentReportController** and improved the handling of profile data to streamline reporting.
+   - Enhanced the **Edit Profile functionality**, allowing updates to academic status, work details, and roles for tailored student management.
+   - Contributed core features for the **Search Profiles Page**, including `SearchProfileController` and `TableView` integration for efficient profile searches.
+
 - **Hoang Khang Pham**:
-   - Developed key student profile features and blacklist/whitelist implementations.
+   - Implemented **student profile management**, including double-click functionality, data population, and profile linking.
+   - Engineered **CSV-based data storage**, enabling persistent saving and retrieval of profile data and associated information.
+   - Debugged and reworked the **Add Comment feature**, fixing display bugs and ensuring smooth operation.
+   - Built the **search page**, adding fields for filtering, navigation buttons, and logic for quick and intuitive data retrieval.
+
 - **Cheyenne Khouri**:
-   - Improved user interface and experience, created reporting, and enhanced search functionalities.
+   - Designed and implemented the **reporting system**, including the reports page and `ReportController`, filtering by blacklist/whitelist status.
+   - Played a key role in **UI/UX improvements**, reorganizing tables, sorting profiles alphabetically, and refining layouts for better usability.
+   - Created the **functional comments page**, allowing users to load, review, and save comment entries persistently.
+   - Developed **navigation components and search functionalities**, making profile exploration seamless and efficient.
 
 ---
 
@@ -92,7 +85,7 @@ To set up and run KnowledgeTrack locally:
 
 ## 📜 License
 
-This project is licensed under the 
+This project is licensed under the Apache License 2.0
 
 ---
 
