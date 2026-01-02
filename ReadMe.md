@@ -88,7 +88,3 @@ To set up and run KnowledgeTrack locally:
 This project is licensed under the Apache License 2.0
 
 ---
-
-## 🙌 Acknowledgements
-
-Special thanks to our team for their contributions and for making KnowledgeTrack a success. This project was created as part of a collaborative learning initiative in academic software development.
